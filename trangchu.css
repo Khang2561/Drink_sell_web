@@ -1,0 +1,204 @@
+/*BEGIN All*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;/*change word type*/
+}
+
+.row{
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.col{
+    float: left;
+    padding-left: 8px;
+    padding-right:8px ;
+}
+
+.col-third{
+    width: 33.33333%;
+    color: black;
+}
+
+.col-second{
+    width: 50%;
+}
+
+.row-full{
+    width: 100%;
+}
+
+.row-half{
+    width: 50%;
+}
+
+.col-full{
+    width: 100%;
+}
+
+.col-half{
+    width: 50%;
+}
+
+.main{
+    height: 10000px;
+    display: block;
+    content: "";
+    background-color:white;
+}
+/*END All*/
+
+/*START TOP*/
+.top{
+    width: 100%;
+    height: 65px;
+    background-color: pink;
+    text-align: center;
+    display: inline-block;
+}
+
+.top-contain{
+    display: inline-block;
+    margin-top: 20px;
+    color: green;
+}
+
+.top-contain p{
+    width: 500px;
+}
+.top-contain i{
+    margin:10px ;
+}
+/*END TOP*/
+
+/*NAV START*/
+.nav{
+    background-color: white;
+    display: inline-block;
+    width: 100%;
+    height: 45px;
+    
+    
+}
+
+.nav a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 15px;
+    padding-bottom: 5px ;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: black;
+}
+
+.nav li:hover a{ 
+    text-decoration: none;
+    background-color: pink;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 5px ;
+    text-transform: uppercase;
+    font-size: 16px;
+    display: block;
+    
+}
+
+.nav .shop:hover{ 
+    text-decoration: none;
+    background-color: palevioletred;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 5px ;
+    text-transform: uppercase;
+    font-size: 16px;
+    display: block;
+    
+}
+
+.nav img{
+    width: 49px;
+    height: 49px;
+    
+}
+
+
+
+.nav li{
+    float: left;
+    display: block;
+    color: black;
+    position: relative; 
+    
+}
+
+.nav ul{
+    margin-left: 150px; 
+}
+.nav .shop{
+    float: right !important;
+    text-align: left !important;
+}
+/*NAV END*/
+
+/*slider start*/
+.slider img{
+    width: 100%;
+    height: 600px;
+}
+/*slider end*/
+
+/*saler start*/
+.center_fillter{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.saller{
+    padding: 15px 40px;
+    
+    
+}
+
+.saller .main-banner img{
+    width: 700px;
+    
+}
+
+.saller .sp-banner img{
+    width: 150px;
+    display: inline-block;
+    margin-left: 90px ;
+    
+}
+
+.sale-it {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:40px ;
+}
+
+.sale-it p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*saler end*/
